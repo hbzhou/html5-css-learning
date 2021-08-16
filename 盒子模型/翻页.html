@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  div a {
+    display: inline-block;
+    text-decoration: none;
+    line-height: 28px;
+    height: 28px;
+    text-align: center;
+    width: 28px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+
+  .prev,
+  .last {
+    width: 80px;
+  }
+
+  .current {
+    border: none;
+    background-color: #fff;
+  }
+
+  input {
+    display: inline-block;
+    text-decoration: none;
+    line-height: 28px;
+    height: 28px;
+    text-align: center;
+    width: 35px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    outline: none;
+    margin-right: 1px;
+  }
+
+  button{
+    height: 28px;
+    width: 50px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+
+  }
+</style>
+
+<body>
+  <div class="footer">
+    <a href="#" class="prev">&lt;&lt;上一页</a>
+    <a href="#" class="current">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">...</a>
+    <a href="#">10</a>
+    <a href="#" class="last">&gt;&gt;下一页</a>
+    <span>共10页</span>
+    <input type="text">
+    <span>页</span>
+    <button>确定</button>
+  </div>
+</body>
+
+</html>
