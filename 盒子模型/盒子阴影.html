@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+
+<!--
+h-shadow	必需的。水平阴影的位置。允许负值
+v-shadow	必需的。垂直阴影的位置。允许负值
+blur	可选。模糊距离
+spread	可选。阴影的大小
+color	可选。阴影的颜色。在CSS颜色值寻找颜色值的完整列表
+inset	可选。从外层的阴影（开始时）改变阴影内侧阴影 -->
+
+  <style>
+      div.box{
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        margin: 100px auto;
+        box-shadow: 10px 10px 10px 10px rgba(0,0, 0, 0.5);
+      }
+
+      div.text{
+         font-size: 50px;
+         font-weight: 700;
+         color: orangered;
+         text-shadow: 5px 5px 10px rgba(0,0, 0, 0.5);
+
+      }
+  </style>
+</head>
+
+<body>
+  <div class="box"></div>
+  <div class="text">你是阴影，我是火影！</div>
+</body>
+</html>
